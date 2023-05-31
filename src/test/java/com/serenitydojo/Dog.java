@@ -7,7 +7,7 @@ public class Dog {
 
     private int age;
 
-    public static final String dog_noise = "Woof";
+    public static final String DOG_NOISE = "Woof";
 
 
     public Dog(String name, String favoriteToy, int age) {
@@ -29,7 +29,7 @@ public class Dog {
     }
 
     public void makesNoise() {
-        System.out.println(dog_noise);
+        System.out.println(DOG_NOISE);
     }
 
     public void feed() {
