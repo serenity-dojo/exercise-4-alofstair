@@ -12,6 +12,7 @@ public class Dog {
         this.name = name;
         this.favoriteToy = favoriteToy;
         this.age = age;
+        this.makeNoise();
     }
 
     public String getName() {
@@ -26,12 +27,12 @@ public class Dog {
         return age;
     }
 
-    public void dogSound() {
-        makeNoise();
+    public void makeNoise() {
+        dogSound();
 
     }
 
-    public String makeNoise() {
+    private String dogSound() {
         System.out.println("Woof");
         return ("Woof");
     }
