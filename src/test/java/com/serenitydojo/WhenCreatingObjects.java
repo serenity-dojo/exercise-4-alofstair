@@ -15,7 +15,7 @@ public class WhenCreatingObjects {
     @Test
     public void whenADogBarks() {
         Dog fido = new Dog("Fido","Bone", 5);
-        fido.makesNoise();
+        fido.makeNoise();
         String dogSound = "Woof";
         // TODO: implement a method in the Dog sound called makeNoise() that returns the sound a dog makes: "Woof", e.g.
         //dogSound = fido.makeNoise();

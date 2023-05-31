@@ -28,7 +28,7 @@ public class Dog {
         return age;
     }
 
-    public void makesNoise() {
+    public void makeNoise() {
         System.out.println(DOG_NOISE);
     }
 
