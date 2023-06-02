@@ -1,5 +1,7 @@
 package com.serenitydojo;
 
+import sun.lwawt.macosx.CSystemTray;
+
 public class Dog {
     private String name;
 
@@ -7,7 +9,7 @@ public class Dog {
 
     private int age;
 
-
+    public static final String DOG_NOISE = "Woof";
 
     public Dog(String name, String favoriteToy, int age) {
         this.name = name;
@@ -41,7 +43,8 @@ public class Dog {
         makeNoise();
     }
 
-    private void makeNoise() {
-        System.out.println("Woof");
+    public void makeNoise() {
+        System.out.println(DOG_NOISE);
     }
+
 }

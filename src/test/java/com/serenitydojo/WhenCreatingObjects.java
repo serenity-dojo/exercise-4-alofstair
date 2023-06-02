@@ -21,6 +21,7 @@ public class WhenCreatingObjects {
         //dogSound = fido.makeNoise();
 
 
+        long dogSound = fido.makeNoise();
         Assert.assertEquals(dogSound, "Woof");
     }
 
