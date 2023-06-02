@@ -7,12 +7,13 @@ public class Dog {
 
     private int age;
 
+    public static final String DOG_NOISE = "Woof";
+
 
     public Dog(String name, String favoriteToy, int age) {
         this.name = name;
         this.favoriteToy = favoriteToy;
         this.age = age;
-        this.makeNoise();
     }
 
     public String getName() {
@@ -28,13 +29,7 @@ public class Dog {
     }
 
     public void makeNoise() {
-        dogSound();
-
-    }
-
-    private String dogSound() {
-        System.out.println("Woof");
-        return ("Woof");
+        System.out.println(DOG_NOISE);
     }
 
     public void feed() {
@@ -44,5 +39,9 @@ public class Dog {
     public boolean isFed() {
         System.out.println("True");
         return true;
+    }
+
+    public void dogSound() {
+        makeNoise();
     }
 }
