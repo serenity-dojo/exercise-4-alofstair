@@ -20,7 +20,7 @@ public class WhenCreatingObjects {
         // TODO: implement a method in the Dog sound called makeNoise() that returns the sound a dog makes: "Woof", e.g.
         //dogSound = fido.makeNoise();
 
-        long dogSound;
+
         Assert.assertEquals(dogSound, "Woof");
     }
 
