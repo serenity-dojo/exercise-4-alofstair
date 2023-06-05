@@ -1,7 +1,5 @@
 package com.serenitydojo;
 
-import sun.lwawt.macosx.CSystemTray;
-
 public class Dog {
     private String name;
 
