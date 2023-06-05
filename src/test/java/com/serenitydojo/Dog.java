@@ -39,11 +39,9 @@ public class Dog {
         return true;
     }
 
-    public void makeNoise() {
-        dogSound();
-    }
-
-    public void dogSound(DOG_NOISE) {
+    public String makeNoise() {
+        System.out.println(DOG_NOISE);
+        return DOG_NOISE;
     }
 
 }
